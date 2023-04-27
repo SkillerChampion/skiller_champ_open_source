@@ -5,7 +5,8 @@
   "scripts": {
     "start": "set NODE_ENV=dev&&node server",
     "dev": "set NODE_ENV=dev&&nodemon server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel . --ignore node_modules,test --out-dir build"
   },
   "author": "Skiller Champion",
   "license": "ISC",
@@ -19,6 +20,9 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
