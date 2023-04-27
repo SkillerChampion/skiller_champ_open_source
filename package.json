@@ -1,0 +1,31 @@
+{
+  "name": "skiller_champ_open_source",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "set NODE_ENV=dev&&node server",
+    "dev": "set NODE_ENV=dev&&nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skiller Champion",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.15.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  },
+  "lint": "eslint .",
+  "lint:fix": "eslint --fix",
+  "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+}
