@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "set NODE_ENV=dev&&node server",
+    "start": "node build/server",
     "dev": "set NODE_ENV=dev&&nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel . --ignore node_modules,test --out-dir build"
