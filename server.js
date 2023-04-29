@@ -9,7 +9,7 @@ app.get('/api/health', (req, res) => res.send('App is running'));
 
 app.use('/api/fortuneWheel', require('./src/routes/fortuneWheel'));
 
-const PORT = 8000;
+const PORT = 8080;
 
 app.listen(PORT, function () {
   console.log(`Server started on PORT ${PORT}`);
