@@ -5,9 +5,9 @@ const cors = require('cors');
 app.use(cors());
 app.use(express.json({ extended: false }));
 
-app.use('/api/fortuneWheel', require('./src/routes/fortuneWheel'));
-
 app.get('/api/health', (req, res) => res.send('App is running'));
+
+app.use('/api/fortuneWheel', require('./src/routes/fortuneWheel'));
 
 const PORT = 8000;
 
