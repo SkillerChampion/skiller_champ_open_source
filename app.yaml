@@ -1,9 +1,8 @@
 runtime: nodejs16
 service: opensource
-instance_class: F4
 
 env_variables:
-  NODE_ENV: production
+  NODE_ENV: st
   PORT: 8080
 
 handlers:

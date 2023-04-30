@@ -5,7 +5,7 @@ const cors = require('cors');
 app.use(cors());
 app.use(express.json({ extended: false }));
 
-app.get('/api/health', (req, res) => res.send('App is running'));
+app.get('/api/health', (req, res) => res.send('Open source app is running'));
 
 app.use('/api/fortuneWheel', require('./src/routes/fortuneWheel'));
 
