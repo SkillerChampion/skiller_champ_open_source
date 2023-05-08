@@ -2,7 +2,7 @@ runtime: nodejs16
 service: opensource
 
 env_variables:
-  NODE_ENV: st
+  NODE_ENV: production
   PORT: 8080
 
 handlers:
