@@ -10,7 +10,7 @@ app.get('/api/health', (req, res) => res.send('Open source app is running'));
 
 app.use('/api/fortuneWheel', require('./src/routes/fortuneWheel'));
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 
 app.listen(PORT, function () {
   console.log(`Server started on PORT ${PORT}`);
