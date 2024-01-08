@@ -1,5 +1,3 @@
-
-
 const ARRAY_KEYS = {
   LABEL: 'LABEL',
   VALUE: 'VALUE',
@@ -35,8 +33,8 @@ const wheelData2000 = [
   },
   { [ARRAY_KEYS.LABEL]: '200 Hbar', [ARRAY_KEYS.VALUE]: 200, [ARRAY_KEYS.ANGLE]: 45 },
   {
-    [ARRAY_KEYS.LABEL]: '5000 Hbar',
-    [ARRAY_KEYS.VALUE]: 5000,
+    [ARRAY_KEYS.LABEL]: '4000 Hbar',
+    [ARRAY_KEYS.VALUE]: 4000,
     [ARRAY_KEYS.ANGLE]: 0,
     [ARRAY_KEYS.IS_WIN]: true
   },
@@ -61,8 +59,8 @@ const wheelData500 = [
   { [ARRAY_KEYS.LABEL]: '300 Hbar', [ARRAY_KEYS.VALUE]: 300, [ARRAY_KEYS.ANGLE]: 90 },
   { [ARRAY_KEYS.LABEL]: '150 Hbar', [ARRAY_KEYS.VALUE]: 150, [ARRAY_KEYS.ANGLE]: 45 },
   {
-    [ARRAY_KEYS.LABEL]: '1500 Hbar',
-    [ARRAY_KEYS.VALUE]: 1500,
+    [ARRAY_KEYS.LABEL]: '1200 Hbar',
+    [ARRAY_KEYS.VALUE]: 1200,
     [ARRAY_KEYS.ANGLE]: 0,
     [ARRAY_KEYS.IS_WIN]: true
   },
@@ -105,5 +103,5 @@ module.exports = {
   wheelData500,
   wheelData100,
   ARRAY_KEYS,
-  BET_AMOUNTS,
+  BET_AMOUNTS
 };
